@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil - Linda Olsen</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="perfil-titulo">Perfil</h1>
+        <input type="checkbox" id="nav-toggle" hidden>
+        <label for="nav-toggle" class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#perfil">Mi Perfil</a></li>
+                <li><a href="#conexiones">Encontrar Conexiones</a></li>
+                <li><a href="#education">Educación</a></li>
+            </ul>
+        </nav>
+        <button class="btn-cerrar mx-auto mt-4">Cerrar Sesión</button>
+    </header>
+
+    <main>
+        <div>
+            <section class="profile-card" id="perfil">
+                <div class="profile-header"></div>
+                <div class="profile-info">
+                    <img src="img/linda.jpg" alt="Linda Olsen" class="profile-pic">
+                    <h2>Linda Olsen</h2>
+                    <p>
+                        Chillan,Chile<br>
+                        Diseñadora de UX/UI | Desarrolladora Frontend | Amante de la naturaleza
+                    </p>
+                    <p>
+                        Apasionada por crear experiencias digitales hermosas y funcionales.<br>
+                        Cuando no está codificando, disfruta explorando las costas de Chile y capturando la
+                        belleza de la naturaleza en fotografías.
+                    </p>
+                    <a class="edit" href="#">Editar Perfil</a>
+                </div>
+            </section>
+            <!-- Sección Educación con id para el enlace -->
+            <section class="education" id="education">
+                <h3>Educacion</h3>
+                <p>
+                    <strong>Coding Dojo</strong> - Bootcamp de Desarrollo Full Stack<br>
+                    Dic 2019 - Mar 2020<br>
+                    Triple cinturón negro en Python, MERN y C#
+                </p>
+            </section>
+        </div>
+        <aside class="sidebar">
+            <section class="section" id="conexiones">
+                <h3>Solicitudes de Conexión (2)</h3>
+                <div class="request">
+                    <img src="img/Kai.jpg" alt="Pedro Ruiz">
+                    <span>Pedro Ruiz</span>
+                    <div class="actions">
+                        <button>✓</button>
+                        <button>✕</button>
+                    </div>
+                </div>
+                <div class="request">
+                    <img src="img/Amira.jpg" alt="Shakira Crazy">
+                    <span>Shakira Crazy</span>
+                    <div class="actions">
+                        <button>✓</button>
+                        <button>✕</button>
+                    </div>
+                </div>
+            </section>
+            <section class="section">
+                <h3>Tus Conexiones (500+)</h3>
+                <div class="connection">
+                    <img src="img/Adrien.jpg" alt="Adrian Perez">
+                    <span>Adrian Perez</span>
+                </div>
+                <div class="connection">
+                    <img src="img/Araav.jpg" alt="Lucho Prieto">
+                    <span>Lucho Prieto</span>
+                </div>
+                <div class="connection">
+                    <img src="img/Liam.jpg" alt="Loco Choche">
+                    <span>Loco Choche</span>
+                </div>
+                <div class="connection">
+                    <img src="img/Lina.jpg" alt="Rochi Mochi">
+                    <span>Rochi Mochi</span>
+                </div>
+                <div class="connection">
+                    <img src="img/Mateo.jpg" alt="Mateo Hernández">
+                    <span>Mateo Hernández</span>
+                </div>
+                <div class="connection">
+                    <img src="img/Yuna.jpg" alt="Pequeña Lulu">
+                    <span>Pequeña Lulu</span>
+                </div>
+
+            </section>
+        </aside>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
